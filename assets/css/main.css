@@ -21,7 +21,7 @@ a {
 }
 
 section {
-  padding: 0px 110px;
+  padding: 0px 150px;
 }
 
 .div-panda {
@@ -74,4 +74,15 @@ main ul li a {
 
 .texto {
   padding: 100px;
+}
+
+#origen {
+  margin-left: 90px;
+  display: inline-block;
+  width: 500px;
+}
+
+#extincion {
+  display: inline-block;
+  width: 500px;
 }
