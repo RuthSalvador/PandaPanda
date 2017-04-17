@@ -1,0 +1,20 @@
+body {
+  background-color: #1d1a05;
+  color: #ffffff;
+  margin: 0;
+}
+
+header ul {
+  background-color: #c93c25;
+  margin: 0;
+}
+
+header ul li{
+  display: inline-block;
+  padding: 20px;
+  list-style: none;
+}
+
+a {
+  color: inherit;
+}
