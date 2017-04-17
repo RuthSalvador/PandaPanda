@@ -18,3 +18,8 @@ header ul li{
 a {
   color: inherit;
 }
+
+.img-panda {
+  width: 250px;
+  height: 200px;
+}

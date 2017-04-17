@@ -9,7 +9,7 @@ window.addEventListener("load", function(){
       var image = document.createElement("img");
       image.setAttribute("src","assets/img/"+ e + ".jpg");
       image.setAttribute("title", e);
-      image.setAttribute("width","200");
+      image.setAttribute("class","img-panda");
       imagenesPanda.appendChild(image);
 
     })
