@@ -6,11 +6,20 @@ window.addEventListener("load", function(){
     array.forEach(function(e){
       var imagenesPanda = document.getElementById("imagenes-panda");
 
+      var divIma = document.createElement("div")
+      divIma.setAttribute("class","div-panda");
+      imagenesPanda.appendChild(divIma);
+
       var image = document.createElement("img");
       image.setAttribute("src","assets/img/"+ e + ".jpg");
       image.setAttribute("title", e);
       image.setAttribute("class","img-panda");
-      imagenesPanda.appendChild(image);
+      divIma.appendChild(image);
+
+      var spanX = document.createElement("span");
+      divIma.appendChild(spanX);
+
+      spanX.appendChild(document.createTextNode("x"));
 
     })
   };

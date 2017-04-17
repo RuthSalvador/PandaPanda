@@ -24,14 +24,27 @@ section {
   padding: 0px 110px;
 }
 
-.img-panda {
+.div-panda {
   width: 220px;
   height: 180px;
-  margin: 10px;
+  margin: 15px;
+  display: inline-block;
+  position: relative;
+}
+
+.img-panda {
+  width: 100%;
+  height: 100%;
   border: 7px solid #5b5b5b;
   filter: grayscale(100%);
   -webkit-filter: grayscale(100%);
   -moz-filter: grayscale(100%);
   -o-filter: grayscale(100%);
   -ms-filter: grayscale(100%);
+}
+
+.div-panda span {
+  position: absolute;
+  bottom: 150px;
+  left: 20px;
 }
