@@ -47,4 +47,31 @@ section {
   position: absolute;
   bottom: 150px;
   left: 20px;
+  font-size: 20px;
+}
+
+.oculto {
+  display: none;
+}
+
+
+main {
+  padding: 10px 80px;
+}
+
+main ul li {
+  background-color: #c93c25;
+  display: inline-block;
+  width: 300px;
+  padding:  5px 20px;
+  list-style: none;
+  text-align: center;
+}
+
+main ul li a {
+  text-decoration: none;
+}
+
+.texto {
+  padding: 100px;
 }
