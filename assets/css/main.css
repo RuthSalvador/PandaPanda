@@ -7,6 +7,7 @@ body {
 header ul {
   background-color: #c93c25;
   margin: 0;
+  padding: 0px 100px;
 }
 
 header ul li{
@@ -19,7 +20,18 @@ a {
   color: inherit;
 }
 
+section {
+  padding: 0px 110px;
+}
+
 .img-panda {
-  width: 250px;
-  height: 200px;
+  width: 220px;
+  height: 180px;
+  margin: 10px;
+  border: 7px solid #5b5b5b;
+  filter: grayscale(100%);
+  -webkit-filter: grayscale(100%);
+  -moz-filter: grayscale(100%);
+  -o-filter: grayscale(100%);
+  -ms-filter: grayscale(100%);
 }
