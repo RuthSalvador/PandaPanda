@@ -26,8 +26,8 @@ section {
 }
 
 .div-panda {
-  width: 220px;
-  height: 180px;
+  width: 200px;
+  height: 150px;
   margin: 15px;
   display: inline-block;
   position: relative;
@@ -46,7 +46,7 @@ section {
 
 .div-panda span {
   position: absolute;
-  bottom: 150px;
+  bottom: 120px;
   left: 20px;
   font-size: 20px;
 }
