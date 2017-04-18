@@ -29,7 +29,7 @@ section {
 .div-panda {
   width: 200px;
   height: 150px;
-  margin: 15px;
+  margin: 20px 15px 30px 15px;
   display: inline-block;
   position: relative;
 }
@@ -50,6 +50,7 @@ section {
   bottom: 120px;
   left: 20px;
   font-size: 20px;
+  cursor: pointer;
 }
 
 main {
@@ -64,6 +65,7 @@ main ul li {
   padding:  5px 20px;
   list-style: none;
   text-align: center;
+  cursor: pointer;
 }
 
 main ul li a {
@@ -75,10 +77,19 @@ main ul li a {
   width: 500px;
   text-align: justify;
   padding: 10px;
+  font-size: 14px;
 }
 
 .bloque-textos {
-  margin: 18px;
+  margin: 27px 18px;
+}
+
+footer {
+  background-color: #242006;
+  margin: 0;
+  padding: 20px 150px;
+  text-align: center;
+  font-size: 13px;
 }
 
 .oculto {
