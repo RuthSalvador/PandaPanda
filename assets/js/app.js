@@ -14,4 +14,16 @@ window.addEventListener("load", function(){
       }
     })
 
+  var divTexto = document.getElementsByClassName("texto");
+  var idOrigen = document.getElementById("click-origen");
+  var idExtincion = document.getElementById("click-extincion");
+
+    idOrigen.addEventListener("click", function(){
+      divTexto[0].classList.toggle("sin-visual");
+    })
+
+    idExtincion.addEventListener("click", function(){
+      divTexto[1].classList.toggle("sin-visual");
+    })
+
 })
