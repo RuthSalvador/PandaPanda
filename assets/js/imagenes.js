@@ -17,7 +17,7 @@ window.addEventListener("load", function(){
       divIma.appendChild(image);
 
       var spanX = document.createElement("span");
-      spanX.setAttribute("name", "close-span");
+      spanX.setAttribute("class", "close-span");
       divIma.appendChild(spanX);
 
       spanX.appendChild(document.createTextNode("x"));
